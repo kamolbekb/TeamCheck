@@ -7,7 +7,7 @@ namespace Hometask
 		public string Model { get; set; }
 		public string Brand { get; set; }
 		public decimal Price { get; set; }
-		public static decimal TaxPercentage { get; set; } = 10;
+		public static decimal TaxPercentage { get; set; } = 10; //this is a default value of a varible, if costumer will not change the value it will increase the final price depending to the default value
 		public Car(int id,string model,string brand,decimal price)
 		{
 			Id = id;
@@ -21,4 +21,3 @@ namespace Hometask
 		}
 	}
 }
-
